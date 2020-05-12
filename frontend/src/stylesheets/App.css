@@ -1,0 +1,59 @@
+.App-header {
+  background-color: #222;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  padding: 20px;
+  padding-right: 40%;
+  padding-left: 5%;
+}
+
+.App-header > h1 {
+  color: dodgerblue;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+h2 {
+  text-align: center;
+}
+
+li {
+  text-align: center;
+  margin: 5px 0px;
+}
+li:hover{
+  color:blue;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+h2:hover{
+  color: Blue;
+  font-size: 30px;
+}
+.Question-holder{
+  border-radius: 5%;
+}
+.button{
+  border-radius: 10%
+
+}
+.button:hover{
+  opacity: 50%;
+  background-color: blue;
+  font-size:15px;
+}
